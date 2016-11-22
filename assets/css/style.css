@@ -35,7 +35,8 @@ footer, .push {
 }
 
 nav a:hover {
-	color: #5E7F7E;
+	background: #4aaaa5;
+	color: white;
 }
 
 .social:hover {
@@ -109,10 +110,10 @@ nav {
 nav a {
 	color: #999;
 	text-decoration: none;
-	margin-left: 15px;
+	margin-left: -5px;
 	display: inline-block;
 	border-left: 1px solid #efefef;
-	padding-left: 15px;
+	padding: 15px;
 	line-height: 18px;
 }
 
