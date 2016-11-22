@@ -263,7 +263,25 @@ input[type=submit] {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 726px;
+	}
 
+	.main-section {
+		max-width: 726px;
+	}
+
+	.sidebar {
+		max-width: 726px;
+	}
+
+	.work {
+		width: 310px;
+		height: 235px;
+		overflow: hidden;
+	}
+}
 
 
 
