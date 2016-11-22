@@ -150,8 +150,8 @@ h3, .sidebar h2 {
 }
 
 .social {
-	width: 62px;
-	height: 62px;
+	width: 64px;
+	height: 64px;
 	margin-top: 8px;
 	margin-right: 5px;
 }
@@ -247,7 +247,21 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media only screen and (max-width: 980px) {
+	.container {
+		max-width: 730px;
+	}
 
+	.main-section {
+		max-width: 420px;
+	}
+
+	.work {
+		width: 356px;
+		height: 266px;
+		overflow: hidden;
+	}
+}
 
 
 
