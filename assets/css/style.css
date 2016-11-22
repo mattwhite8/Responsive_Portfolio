@@ -30,10 +30,19 @@ footer, .push {
 	height: 4em;
 }
 
-nav a:hover {
-	background: #4aaaa5;
-	color: white;
+#logo:hover, input[type=submit]:hover {
+	background: #5E7F7E;
 }
+
+nav a:hover {
+	color: #5E7F7E;
+}
+
+.social:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
 
 .container {
 	width: 100%;
