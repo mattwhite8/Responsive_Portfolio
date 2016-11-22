@@ -347,5 +347,70 @@ input[type=submit] {
 	}
 }
 
+@media only screen and (max-width: 400px) {
+	
+	#masthead {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+	}
+
+	nav {
+		width: 100%;
+		margin-top: 2px;
+	}
+
+	nav a {
+		padding: 15px 30px 15px 30px;
+	}
+
+	nav a:first-child {
+		margin-left: 30px;
+	}
+
+	nav a:hover {
+		color: #5E7F7E;
+		background: white;
+	}
+
+	#main-container {
+		padding-top: 0;
+		margin-left: 0;
+	}
+
+	.container {
+		max-width: 400px;
+	}
+
+	.main-section {
+		max-width: 400px;
+	}
+
+	#profile-picture {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.sidebar {
+		max-width: 400px;
+		margin-bottom: 40px;
+		float: left;
+	}
+
+	.work {
+		width: 336px;
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.work h3 {
+		bottom: 10px;
+	}
+}
+
+
+
 
 
